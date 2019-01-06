@@ -23,6 +23,7 @@ export class ChartsComponent implements OnInit {
 	degreeTypeOptions;
 	cityOptions;
 	stateOptions;
+	experienceOptions;
 
 
 	mergeOption: any;
@@ -37,11 +38,18 @@ export class ChartsComponent implements OnInit {
 		this.getGenderChart();
 		this.getCountryChart();
 		this.getDegreeChart();
+		this.getExperienceChart();
 	}
 
 	getCountryChart(){
 		let stateData = this._dataService.GetStateWiseData();
 		this.stateOptions  = this.getBarChart( stateData , 'From which State they are ?'  );
+	}
+	
+	getExperienceChart(){
+		let expData = this._dataService.GetExperience();
+		let mappedExp = this.getMappingForPie( expData ).sort( ( a ,b ) => {return a.value > b.value ? 1 :-1 } );
+		this.experienceOptions = this.getPieChart( mappedExp , 'Years Of Experience' );
 	}
 
 	getDegreeChart(){
@@ -279,7 +287,7 @@ export class ChartsComponent implements OnInit {
 			},
 			series: [
 				{
-					name: 'Gender',
+					name: 'Students',
 					type: 'pie',
 					radius: '55%',
 					center: ['50%', '50%'],

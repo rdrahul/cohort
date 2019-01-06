@@ -40,10 +40,10 @@
         <div class="header">{{stateOptions.title.text}}</div>
         <div class="content">
             <p>
-                This bar graph is very similar to the one we had for cities with 31% of students, since Bangalore is in State Karnataka this is very straight forward.
+                This bar graph is very similar to the one we had for cities with <span>31%</span> of students, since Bangalore is in State Karnataka this is very straight forward.
             </p>
             <p>
-                The second most state though is Maharastra with 17% as we have both Mumbai and Pune inside It.
+                The second most state though is Maharastra with <span>17%</span> as we have both Mumbai and Pune inside It.
             </p>
         </div>
     </div>
@@ -76,3 +76,19 @@
         </div>
     </div>
 </div>
+<div class="chart-area" *ngIf="experienceOptions" >
+        <div echarts [options]="experienceOptions" class="chart" theme="macarons2" ></div>
+        <div class="explanation" >
+            <div class="header">{{experienceOptions.title.text}}</div>
+            <div class="content">
+                <p>
+                    From pie chart we can easily see there are almost same number of people in each of the divided experience bucket 
+                    with <span> 30% </span>, <span> 33%</span> and <span>37%</span> for experience less than 5 , between 5 and 10 and greater than 9 respectively.
+                    
+                </p>
+                <p>
+                    Still statistically speaking number of people having experience above 9 is highest.                
+                    </p>
+            </div>
+        </div>
+    </div>

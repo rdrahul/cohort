@@ -30,7 +30,24 @@ export class DataService {
 	}
 
 	GetExperience() {
-		return this.groupBy(this.data, 'Experience');
+		let experiences = this.data.map( (item) => parseInt(item.Experience) );
+		let uptoFourCount= 0, upto9 = 0, above9 = 0;
+		experiences.forEach( (exp) => {
+			if ( exp >=0 && exp<=4){
+				uptoFourCount += 1;
+			}else if ( exp >4 && exp<=9 ){
+				upto9 += 1;
+			}else if (exp>=10) {
+				above9 += 1
+			}
+		} );
+
+		return {
+			"0-4 Years" : uptoFourCount,
+			"5-9 Years" : upto9,
+			"10 and above Years" : above9
+		}
+
 	}
 
 	GetDegree(){
