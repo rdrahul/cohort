@@ -10,7 +10,7 @@
     /* position: absolute; */
     /* top: 50%; */
     margin: 11px 50px;
-    margin-top: 35px;
+    margin-top: 70px;
     padding: 10px;
     padding-top: 30;
     box-shadow: 0 2px 14px rgba(0,0,0,0.1);
@@ -33,4 +33,13 @@
 
 .content{
     padding: 20px;
+
+    span{
+        font-size: 20px;
+        color: #000000; 
+    }
+
+    p{
+        margin-bottom: 10px;
+    }
 }

@@ -90,7 +90,7 @@
   {
     "Gender": "Male",
     "City": "Bengaluru",
-    "State": "CA",
+    "State": "Karnataka",
     "Experience": 3,
     "Company": "",
     "Job Role": "Software Developer",
@@ -299,7 +299,7 @@
   {
     "Gender": "NA",
     "City": "Hyderabad",
-    "State": "Telanga",
+    "State": "Telangana",
     "Experience": 2,
     "Company": "Georgia Institute of Technology",
     "Job Role": 0,
@@ -519,7 +519,7 @@
   {
     "Gender": "Male",
     "City": "Hyderabad",
-    "State": "telengana",
+    "State": "Telangana",
     "Experience": "10+",
     "Company": "",
     "Job Role": "Project Lead",

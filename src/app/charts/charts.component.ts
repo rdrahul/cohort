@@ -49,7 +49,7 @@ export class ChartsComponent implements OnInit {
 		let mappedDegree = this.getMappingForPie( degreeData ).sort( ( a ,b ) => {return a.value > b.value ? 1 :-1 } );
 		
 		
-		let bachelorsCount = 0 , mastersCount = 0;
+		let bachelorsCount = 0 , mastersCount = 0 , naCount = 0 ;
 		let bachelorsDegree = mappedDegree.filter(  ( degree) => {  
 			if ( degree.name[0].toLowerCase() == 'b'){
 					bachelorsCount += degree.value; 
@@ -60,11 +60,16 @@ export class ChartsComponent implements OnInit {
 			if ( degree.name[0].toLowerCase() == 'm'){
 					mastersCount += degree.value; 
 					return true ;
-			}else return false ;
+			}else if (degree.name[0].toLowerCase() == 'n'){ 
+					naCount += degree.value; 
+					return false;
+			}else 
+					return false ;
 		});
 		let data = [ 
 			{name : 'Bachelors Degree' , value :bachelorsCount },
-			{name: 'Masters Degree' , value : mastersCount}
+			{name: 'Masters Degree' , value : mastersCount},
+			{name: 'NA' , value : naCount }
 		];
 		this.degreeOptions = this.getBarChart( degreeData , 'Which degree do they have ?' ) ;
 		this.degreeTypeOptions = this.getPieChart( data , 'Ratio of Masters and Bachelors degree' ) ;
@@ -174,7 +179,8 @@ export class ChartsComponent implements OnInit {
 				left: 'center',
 				top: 20,
 				textStyle: {
-					color: '#111'
+					color: '#111',
+					fontSize:24
 				}
 			},
 			tooltip: {
@@ -191,6 +197,10 @@ export class ChartsComponent implements OnInit {
 			},
 			xAxis: [
 				{
+					axisLabel : {
+						interval : 0
+					},
+					
 					display :true,
 					ticks: {
 						fontSize: 10
