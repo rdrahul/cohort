@@ -1,4 +1,4 @@
-[
+{"json" : [
   {
     "Gender": "Male",
     "City": "Colombo",
@@ -23,7 +23,7 @@
   },
   {
     "Gender": "Male",
-    "City": "Gugaon",
+    "City": "Gurugram",
     "State": "Haryana",
     "Experience": 7,
     "Company": "Royal Bank Of Scotland",
@@ -63,29 +63,29 @@
     "Job Role": 0,
     "University Name": "WDT university",
     "Field of Study": "CSE",
-    "Degree": "B. Tech"
+    "Degree": "B.Tech"
   },
   {
     "Gender": "Male",
-    "City": "_",
-    "State": 0,
+    "City": "NA",
+    "State":"NA",
     "Experience": 0,
     "Company": "Honeywell",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "RGPV - Bhopal",
     "Field of Study": "CSE",
-    "Degree": 0
+    "Degree": "B.Tech"
   },
   {
     "Gender": "Male",
-    "City": "PUNE",
+    "City": "Pune",
     "State": "Maharashtra",
     "Experience": 5,
     "Company": "evolent health",
     "Job Role": 0,
     "University Name": "mumbai university",
     "Field of Study": "B.sc",
-    "Degree": 0
+    "Degree": "BSc"
   },
   {
     "Gender": "Male",
@@ -112,13 +112,13 @@
   {
     "Gender": "NA",
     "City": "Wroclaw",
-    "State": 0,
+    "State": "NA",
     "Experience": 0,
     "Company": "Nokia Solutions and Networks Sp. Z o.o., Poland",
     "Job Role": 0,
     "University Name": "BITS Pilani",
     "Field of Study": "Telecommunication & Information System",
-    "Degree": 0
+    "Degree": "NA"
   },
   {
     "Gender": "Male",
@@ -129,7 +129,7 @@
     "Job Role": 0,
     "University Name": "Andhra University",
     "Field of Study": "IT",
-    "Degree": 0
+    "Degree": "NA"
   },
   {
     "Gender": "Male",
@@ -137,10 +137,10 @@
     "State": "Maharashtra",
     "Experience": "10+",
     "Company": "Excelize Software Pvt. Ltd.",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "PICT college, University of Pune",
-    "Field of Study": "BE (computer engineering)",
-    "Degree": 0
+    "Field of Study": "B.E (computer engineering)",
+    "Degree": "B.E"
   },
   {
     "Gender": "Male",
@@ -148,10 +148,10 @@
     "State": "Maharashtra",
     "Experience": 0,
     "Company": "n media graphics",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "rajiv gandhi univerity",
     "Field of Study": "b.tech",
-    "Degree": 0
+    "Degree": "B.Tech"
   },
   {
     "Gender": "Female",
@@ -162,7 +162,7 @@
     "Job Role": 0,
     "University Name": "west bengal unversity of technology",
     "Field of Study": "b.tech",
-    "Degree": 0
+    "Degree": "B.Tech"
   },
   {
     "Gender": "Male",
@@ -173,15 +173,15 @@
     "Job Role": 0,
     "University Name": "IIPM Hyderabad",
     "Field of Study": "MBA",
-    "Degree": 0
+    "Degree": "MBA"
   },
   {
     "Gender": "Male",
-    "City": "Bangalore",
+    "City": "Bengaluru",
     "State": "Karnataka",
     "Experience": 5,
     "Company": "",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "Mangalore University",
     "Field of Study": "MCA",
     "Degree": "MCA"
@@ -192,10 +192,10 @@
     "State": "Maharashtra",
     "Experience": 10,
     "Company": "",
-    "Job Role": 0,
-    "University Name": 0,
+    "Job Role": "NA",
+    "University Name": "NA",
     "Field of Study": "B.E",
-    "Degree": 0
+    "Degree": "B.E"
   },
   {
     "Gender": "Male",
@@ -210,7 +210,7 @@
   },
   {
     "Gender": "Male",
-    "City": "Bangalore",
+    "City": "Bengaluru",
     "State": "Karnataka",
     "Experience": "10+",
     "Company": "",
@@ -225,10 +225,10 @@
     "State": "M P",
     "Experience": "10+",
     "Company": "Map IT",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "MD khalsa college, indore",
     "Field of Study": "ESC",
-    "Degree": 0
+    "Degree": "NA"
   },
   {
     "Gender": "Male",
@@ -239,7 +239,7 @@
     "Job Role": 0,
     "University Name": 0,
     "Field of Study": "B.E",
-    "Degree": 0
+    "Degree": "B.E"
   },
   {
     "Gender": "Male",
@@ -265,8 +265,8 @@
   },
   {
     "Gender": "Male",
-    "City": 0,
-    "State": 0,
+    "City": "NA",
+    "State": "NA",
     "Experience": 5,
     "Company": "Deloitte Support Service India Pvt Ltd",
     "Job Role": "Analyst",
@@ -297,7 +297,7 @@
     "Degree": "B.E"
   },
   {
-    "Gender": "na",
+    "Gender": "NA",
     "City": "Hyderabad",
     "State": "Telanga",
     "Experience": 2,
@@ -305,7 +305,7 @@
     "Job Role": 0,
     "University Name": "JNTU, Hyderabad",
     "Field of Study": "Computer Science & Engineering",
-    "Degree": 0
+    "Degree": "B.Tech"
   },
   {
     "Gender": "Male",
@@ -316,10 +316,10 @@
     "Job Role": 0,
     "University Name": "R V College of Engineering",
     "Field of Study": "Electronics and Telecommunication",
-    "Degree": 0
+    "Degree": "B.Tech"
   },
   {
-    "Gender": "na",
+    "Gender": "NA",
     "City": "Noida",
     "State": "Uttar Pradesh",
     "Experience": 0,
@@ -327,7 +327,7 @@
     "Job Role": 0,
     "University Name": "CU",
     "Field of Study": "commerce",
-    "Degree": 0
+    "Degree": "NA"
   },
   {
     "Gender": "Male",
@@ -341,8 +341,8 @@
     "Degree": "B.Tech"
   },
   {
-    "Gender": "na",
-    "City": "Bangalore",
+    "Gender": "NA",
+    "City": "Bengaluru",
     "State": "Karnataka",
     "Experience": "10+",
     "Company": "",
@@ -397,17 +397,17 @@
   },
   {
     "Gender": "Male",
-    "City": "Bangalore",
+    "City": "Bengaluru",
     "State": "Karnataka",
     "Experience": 8,
     "Company": "G health care",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "jb panth university",
-    "Field of Study": "B.tech",
-    "Degree": 0
+    "Field of Study": "B.Tech",
+    "Degree": "B.Tech"
   },
   {
-    "Gender": "na",
+    "Gender": "NA",
     "City": "Bengaluru",
     "State": "Karnataka",
     "Experience": 10,
@@ -430,8 +430,8 @@
   },
   {
     "Gender": "Female",
-    "City": "bh",
-    "State": 0,
+    "City": "NA",
+    "State": "NA",
     "Experience": 10,
     "Company": "",
     "Job Role": "Consultant",
@@ -445,10 +445,10 @@
     "State": "Tamil Nadu",
     "Experience": 5,
     "Company": "",
-    "Job Role": 0,
-    "University Name": 0,
+    "Job Role": "NA",
+    "University Name": "NA",
     "Field of Study": "B.Tech",
-    "Degree": 0
+    "Degree": "B.Tech"
   },
   {
     "Gender": "Male",
@@ -463,7 +463,7 @@
   },
   {
     "Gender": "Male",
-    "City": "Bangalore, Karnataka, India",
+    "City": "Bengaluru",
     "State": "Karnataka",
     "Experience": 8,
     "Company": "NA",
@@ -474,8 +474,8 @@
   },
   {
     "Gender": "Male",
-    "City": 0,
-    "State": 0,
+    "City": "NA",
+    "State": "NA",
     "Experience": "10+",
     "Company": "",
     "Job Role": "Big Data Engineer",
@@ -489,10 +489,10 @@
     "State": "Karnataka",
     "Experience": 0,
     "Company": "NA",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "Swami Keshwanand Institute of Technology, Jaipur",
     "Field of Study": "NA",
-    "Degree": 0
+    "Degree": "NA"
   },
   {
     "Gender": "Female",
@@ -518,7 +518,7 @@
   },
   {
     "Gender": "Male",
-    "City": "hyderabad",
+    "City": "Hyderabad",
     "State": "telengana",
     "Experience": "10+",
     "Company": "",
@@ -529,14 +529,14 @@
   },
   {
     "Gender": "Male",
-    "City": 0,
-    "State": 0,
+    "City": "NA",
+    "State": "NA",
     "Experience": 3,
     "Company": "NA",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "Inderprastha Engineering College",
     "Field of Study": "NA",
-    "Degree": 0
+    "Degree": "NA"
   },
   {
     "Gender": "Male",
@@ -562,7 +562,7 @@
   },
   {
     "Gender": "Male",
-    "City": "Bangalore",
+    "City": "Bengaluru",
     "State": "Karnataka",
     "Experience": 10,
     "Company": "",
@@ -628,8 +628,8 @@
   },
   {
     "Gender": "Female",
-    "City": 0,
-    "State": 0,
+    "City": "NA",
+    "State": "NA",
     "Experience": "10+",
     "Company": "",
     "Job Role": "ETL & Data Warehousing Developer",
@@ -643,7 +643,7 @@
     "State": "Gujarat",
     "Experience": 2,
     "Company": "",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "Gujarat Technological University",
     "Field of Study": "B.Tech",
     "Degree": "B.E"
@@ -655,7 +655,7 @@
     "Experience": "8 years",
     "Company": "IVL Labs",
     "Job Role": "Mobile App Developer",
-    "University Name": 0,
+    "University Name": "NA",
     "Field of Study": "B.E",
     "Degree": "B.Tech"
   },
@@ -665,10 +665,10 @@
     "State": "Maharashtra",
     "Experience": 10,
     "Company": "NA",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "University of Mumbai",
     "Field of Study": "NA",
-    "Degree": 0
+    "Degree": "NA"
   },
   {
     "Gender": "Male",
@@ -676,21 +676,21 @@
     "State": "Tamil Nadu",
     "Experience": 5,
     "Company": "",
-    "Job Role": 0,
-    "University Name": 0,
+    "Job Role": "NA",
+    "University Name": "NA",
     "Field of Study": "B.Tech",
-    "Degree": 0
+    "Degree": "B.Tech"
   },
   {
     "Gender": "Male",
-    "City": 0,
-    "State": 0,
+    "City": "NA",
+    "State": "NA",
     "Experience": "10+",
     "Company": "",
-    "Job Role": 0,
-    "University Name": 0,
+    "Job Role": "NA",
+    "University Name": "NA",
     "Field of Study": "B.E",
-    "Degree": 0
+    "Degree": "B.E"
   },
   {
     "Gender": "Male",
@@ -709,32 +709,32 @@
     "State": "Telangana",
     "Experience": 0,
     "Company": "qualcomm",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "Bits Pilani",
     "Field of Study": "M.S",
-    "Degree": 0
+    "Degree": "M.S"
   },
   {
     "Gender": "Male",
-    "City": "Delhi",
+    "City": "New Delhi",
     "State": "Delhi",
     "Experience": 2,
     "Company": "Trihund Solutions",
-    "Job Role": 0,
+    "Job Role": "NA",
     "University Name": "Acharya Narendra Dev College",
     "Field of Study": "Computer Science, B.Tech",
-    "Degree": 0
+    "Degree": "B.Tech"
   },
   {
     "Gender": "Male",
-    "City": "Bangalore",
+    "City": "Bengaluru",
     "State": "Karnataka",
     "Experience": "10+",
     "Company": "",
-    "Job Role": 0,
-    "University Name": 0,
+    "Job Role": "NA",
+    "University Name": "NA",
     "Field of Study": "MBA",
-    "Degree": 0
+    "Degree": "MBA"
   },
   {
     "Gender": "Male",
@@ -759,14 +759,15 @@
     "Degree": "B.Tech"
   },
   {
-    "Gender": "na",
+    "Gender": "NA",
     "City": "Hyderabad",
     "State": "Telangana",
     "Experience": 5,
     "Company": "",
-    "Job Role": 0,
-    "University Name": 0,
+    "Job Role": "NA",
+    "University Name": "NA",
     "Field of Study": "B.Tech",
-    "Degree": 0
+    "Degree": "B.Tech"
   }
 ]
+}

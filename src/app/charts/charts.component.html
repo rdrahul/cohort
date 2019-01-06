@@ -1,0 +1,54 @@
+<div class="chart-area" *ngIf="cityOptions" >
+    <div echarts [options]="cityOptions" class="chart" theme="macarons2" ></div>
+    <div class="explanation" >
+        <div class="header">{{cityOptions.title.text}}</div>
+        <div class="content">
+            Around <span>31%</span>  of people who are taking this course are from Bangalore which is called the Silicon Valley for India. With
+            Hyderabad coming at second number, with 13% of people. Also, around <span>13%</span>  of people come from Delhi/NCR region. 
+            Pune is just behind Hyderabad with a total of 8 people which forms a <span>11%</span>.
+            <br>
+            4% of students enrolled from cities not in India.
+            <br>
+            Data for 10% of students is not available.  
+
+        </div>
+    </div>
+</div>
+<div class="chart-area" *ngIf="options">
+    <div echarts [options]="options" class="chart pad-10"></div>
+    <div class="explanation" >
+        <div class="header">{{options.title.text}}</div>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequatur, eveniet officiis corporis saepe libero numquam recusandae a molestiae quibusdam est eos sit praesentium nobis distinctio dolor illum ab minima?
+        </div>
+    </div>
+</div>
+
+<div class="chart-area" *ngIf="stateOptions" >
+    <div echarts [options]="stateOptions" class="chart" theme="macarons2" ></div>
+    <div class="explanation" >
+        <div class="header">{{stateOptions.title.text}}</div>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequatur, eveniet officiis corporis saepe libero numquam recusandae a molestiae quibusdam est eos sit praesentium nobis distinctio dolor illum ab minima?
+        </div>
+    </div>
+</div>
+
+<div class="chart-area" *ngIf="degreeOptions" >
+    <div echarts [options]="degreeOptions" class="chart" theme="macarons2" ></div>
+    <div class="explanation" >
+        <div class="header">{{degreeOptions.title.text}}</div>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequatur, eveniet officiis corporis saepe libero numquam recusandae a molestiae quibusdam est eos sit praesentium nobis distinctio dolor illum ab minima?
+        </div>
+    </div>
+</div>
+<div class="chart-area" *ngIf="degreeTypeOptions" >
+    <div echarts [options]="degreeTypeOptions" class="chart" theme="macarons2" ></div>
+    <div class="explanation" >
+        <div class="header">{{degreeTypeOptions.title.text}}</div>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequatur, eveniet officiis corporis saepe libero numquam recusandae a molestiae quibusdam est eos sit praesentium nobis distinctio dolor illum ab minima?
+        </div>
+    </div>
+</div>

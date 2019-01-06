@@ -4,13 +4,20 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import {  NgxEchartsModule } from 'ngx-echarts';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { ChartsComponent } from './charts/charts.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChartsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxEchartsModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
