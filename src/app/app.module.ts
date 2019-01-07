@@ -5,7 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {  NgxEchartsModule } from 'ngx-echarts';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatToolbarModule  } from '@angular/material/toolbar';
+import { MatIconModule } from "@angular/material/icon";
 import { ChartsComponent } from './charts/charts.component';
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ChartsComponent } from './charts/charts.component';
     BrowserModule,
     AppRoutingModule,
     NgxEchartsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

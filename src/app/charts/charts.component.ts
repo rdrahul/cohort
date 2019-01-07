@@ -28,12 +28,14 @@ export class ChartsComponent implements OnInit {
 
 	mergeOption: any;
 	loading = false;
+	isMobile:boolean = false;
 
 	graphOption: Observable<EChartOption>;
 
 	constructor(private _dataService:DataService) { }
 
 	ngOnInit() {
+		this.isMobile = window.innerWidth < 430  ? true: false;
 		this.getCitychart();
 		this.getGenderChart();
 		this.getCountryChart();
@@ -205,9 +207,9 @@ export class ChartsComponent implements OnInit {
 			},
 			xAxis: [
 				{
-					axisLabel : {
+					axisLabel : !this.isMobile?  {
 						interval : 0
-					},
+					} : '',
 					
 					display :true,
 					ticks: {
